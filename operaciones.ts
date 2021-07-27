@@ -18,7 +18,7 @@ export class Operaciones {
           case "restar":
             res(this.n1 - this.n2);
           default:
-            rej("Introducir sumar o restar!");
+            rej("Por Favor introduzca la operacion que desea realizar");
             break;
         }
       });
