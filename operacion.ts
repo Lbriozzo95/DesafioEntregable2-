@@ -13,14 +13,14 @@ const operacion = async (
     }
   };
   
-  operacion(5, 2, "sumar")
+  operacion(45, 89, "sumar")
     .then((value) => console.log(value))
     .catch((e) => console.log(e));
   
-  operacion(8, 7, "restar")
+  operacion(37, 23, "restar")
     .then((value) => console.log(value))
     .catch((e) => console.log(e));
   
-  operacion(3, 1, "rand")
+  operacion(8, 3, "rand")
     .then((value) => console.log(value))
     .catch((e) => console.log(e));
